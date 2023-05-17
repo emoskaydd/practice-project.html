@@ -1,0 +1,107 @@
+<!DOCTYPE >
+<html lang="eng">
+  <head>
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <meta charset="utf-8" />
+    <title>Dash Grocery</title>
+  </head>
+
+  <!-- thid id the navigation list -->
+  <body>
+    <div class="nav-wrapper">
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-iteam"><a href="index.html"> home</a></li>
+          <li><a href="login.html">Login/Logout</a></li>
+          <li><a href="#">Order Online</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- this is the grocery-store-background img -->
+    <div class="image-holder">
+      <img
+        class="background-image"
+        src="img/grocery-store-background.jpg"
+        alt="grocery store background"
+        width="100%" />
+      <h1 id="CAPTION-1">Grocery store Online Shopping</h1>
+    </div>
+    <!-- thsi is the CATEGORIES heading -->
+
+    <h1 id="pop-cate">PUPLAR CATEGORIES</h1>
+    <hr width="1300" />
+    <!-- this is the diary-product category -->
+
+    <div class="feature-wrapper">
+      <div class="product-container">
+        <p class="category-text">Diary product</p>
+        <img src="img/diary-product.jpg" alt="diary-product" width="100%" />
+        <div class="button-container">
+          <button class="view-more-button" type="button" name="button">
+            View More
+          </button>
+        </div>
+      </div>
+      <div class="product-container">
+        <p class="category-text">fruit and vigge</p>
+        <img
+          src="img/fruit - viggie.jpeg"
+          alt="fruit-and viggie"
+          width="100%" />
+        <div class="button-container">
+          <button class="view-more-button" type="button" name="button">
+            view more
+          </button>
+        </div>
+      </div>
+      <div class="product-container">
+        <p class="category-text">cold-meat</p>
+        <img src="img/cold-meat.jpeg" alt="frozen-meat" width="100%" />
+
+        <div class="button-container">
+          <button class="view-more-button" type="button" name="button">
+            view more
+          </button>
+        </div>
+      </div>
+    </div>
+    <br />
+    <!--this is the social media container -->
+
+    <div id="social-media-container" background-color="#00000">
+      <div id="facebook-icon-container">
+        <img src="img/icons8-facebook-48.png" alt="facebook-icon-container" />
+      </div>
+      <div id="twitter-icon-container">
+        <img src="img/icons8-twitter-48.png" />
+      </div>
+      <div id="instagram-icon-container">
+        <img src="img/icons8-instagram-48.png" />
+      </div>
+    </div>
+    <br />
+    <!--this is the form cotianer-->
+    <div class="form-container">
+      <div class="form-head-container">
+        <img id="email-icon" src="img/icons8-email-48.png" />
+        <p id="contact-us-label">Contact Us</p>
+      </div>
+      <form action="form-container">
+        <label class="form-iteam" for="firstname"> First name</label>
+        <input type="text" id="firstname" placeholder="your first name" />
+        <br /><br />
+        <label class="form-iteam" for="lastname">Last name</label>
+        <input type="text" id="lastname" placeholder="your last name" />
+        <br /><br />
+
+        <label class="form-iteam" for="subject">subject</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="how can we help?"></textarea>
+        <input type="submit" id="submit-button" value="submit" />
+      </form>
+    </div>
+  </body>
+</html>

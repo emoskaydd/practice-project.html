@@ -1,0 +1,249 @@
+body {
+  margin: auto;
+}
+
+.nav-wrapper {
+  background-color: #58af58;
+  position: sticky;
+  width: 135s0px;
+  top: 0;
+  z-index: 1;
+  padding: 5px;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+.nav-list li {
+  display: inline;
+  margin: 0px;
+}
+
+.nav-list li a:hover {
+  background-color: darkorange;
+}
+
+.nav-list li a:active {
+  background-color: whitesmoke;
+}
+
+.nav-list li a:visited {
+  background-color: darkolivegreen;
+}
+
+.nav-iteam {
+  color: aliceblue;
+}
+
+.form-container {
+  background-color: #373737;
+  width: 330px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: fixed;
+  bottom: -280px;
+  right: 0%;
+  transition: 0.5s;
+}
+
+.form-container:hover {
+  bottom: 0;
+}
+#email-icon {
+  width: 50px;
+  float: left;
+}
+
+.form-head-container {
+  background-color: #000;
+  padding: 5px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.form-iteam {
+  margin-left: 15px;
+  color: white;
+  padding-left: 8px;
+}
+#subject {
+  height: 100px;
+  width: 200px;
+}
+#contact-us-label {
+  color: white;
+}
+#submit-button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 7px 12px;
+  margin: 9px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#submit-button:hover {
+  background-color: darkorange;
+}
+
+#CAPTION-1 {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  color: white;
+  font-size: 3vw;
+  animation-name: caption-fade;
+  animation-duration: 2s;
+}
+@keyframes caption-fade {
+  0% {
+    opacity: 0;
+    top: 0;
+  }
+  100% {
+    opacity: 1;
+    top: 40%;
+  }
+}
+.feature-wrapper {
+  position: relative;
+  display: flex;
+  overflow: auto;
+  justify-content: space-around;
+}
+#pop-cate {
+  text-align: center;
+}
+
+.product-container {
+  background-color: #4caf50;
+  text-align: center;
+  max-width: 20%;
+  position: relative;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 2px;
+  margin-top: 8px;
+  animation-name: porduct-container-animation;
+  animation-duration: 2s;
+  border-color: #4caf50;
+}
+
+@keyframes product-container-animation {
+  0% {
+    opacity: 0;
+    margin: 500px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 8px;
+  }
+}
+
+.product-container img {
+  max-width: 100%;
+  position: relative;
+  top: 36px;
+}
+
+.category-text {
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: white;
+  margin-top: 10%;
+  margin-bottom: -2%;
+}
+.button-container {
+  background-color: white;
+  position: relative;
+  top: 1;
+  padding: 7%;
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+}
+.view-more-button {
+  background-color: #4caf50;
+  max-width: 100%;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 9px 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.view-more-button:hover {
+  background-color: darkorange;
+}
+
+#social-media-container {
+  background-color: black;
+  display: inline-block;
+  position: fixed;
+  right: 0;
+  bottom: 50%;
+}
+
+#facebook-icon-container {
+  background-color: #395539;
+  transition: 0.5s;
+}
+#facebook-icon-container:hover {
+  padding-left: 20%;
+}
+#twitter-icon-container {
+  background-color: #1cb7bb;
+  transition: 0.5s;
+}
+#twitter-icon-container:hover {
+  padding-left: 20%;
+}
+#instagram-icon-container {
+  background-color: #eb46ed;
+  transition: 0.5s;
+}
+#instagram-icon-container:hover {
+  padding-left: 20%;
+}
+
+#form {
+  padding-inline: 10px;
+  background-color: #9bf2c9;
+  width: 1500%;
+}
+#frm-container:hover {
+  position: relative;
+}
+
+#password-background:hover {
+  background-color: darkorange;
+  color: white;
+}
+#username-background:hover {
+  background-color: darkorange;
+  color: white;
+}
+#user-name {
+  font-size: bold;
+  font-style: italic;
+  color: red;
+}
+footer {
+  background-color: #000;
+  text-shadow: #373737;
+
+  width: 1500%;
+  size-adjust: 3000px;
+  max-height: 2000%;
+}
